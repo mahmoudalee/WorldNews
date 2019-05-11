@@ -93,13 +93,6 @@ public class CategoriesFragment extends Fragment
             articlesRecyclerView.setVisibility(View.GONE);
         }
 
-//        AdView adView = categoriesView.findViewById(R.id.adView);
-//        // Create an ad request.
-//        AdRequest adRequest = new AdRequest.Builder()
-//                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-//                .build();
-//        adView.loadAd(adRequest);
-
         AdView mAdView = categoriesView.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.

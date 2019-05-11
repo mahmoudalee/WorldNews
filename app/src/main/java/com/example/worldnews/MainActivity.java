@@ -77,16 +77,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Obtain the shared Tracker instance.
-//        AnalyticsApplication application = (AnalyticsApplication) getApplication();
-//        mTracker = application.getDefaultTracker();
-//        Log.i(TAG, "Setting screen name: " + NAME);
-//        mTracker.setScreenName("Image~" + NAME);
-//        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
-//        mTracker.send(new HitBuilders.EventBuilder()
-//                .setCategory("Action")
-//                .setAction("Share")
-//                .build());
         ButterKnife.bind(this);
 
         GoogleAnalytics.getInstance(this).setLocalDispatchPeriod(10);

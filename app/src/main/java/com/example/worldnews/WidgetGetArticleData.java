@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class WidgetGetArticleData extends IntentService {
 
-    public static final String UPDATE_ARTICLES_LIST = "com.robertkiszelirk.newsselector.ui.widget";
+    public static final String UPDATE_ARTICLES_LIST = "com.example.newsselector.ui.widget";
 
     public WidgetGetArticleData() {
         super("WidgetGetArticleData");
